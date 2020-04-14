@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.scss">
+
+    <title>La Veguilla Ecológica - Productos orgánicos y ecológicos naturales desde los campos de Extremadura</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-light">
+        <img src="images/logo2.png" class="mx-auto d-block" alt="La Veguilla ecológica" class="navbar-brand">
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+          <div style="width: 100%; height: 650px; overflow-y:hidden">
+            <img src="images/main.jpg" alt="Productos ecológicos La Veguilla" style="width:100%" class="img-fluid">
+          </div>
+      </div>
+    </div>
+
+<div class="container">
+  <p>
+  <div class="jumbotron">
+    <h1 class="display-4">Productos ecológicos</h1>
+    <p class="lead">Productos ecológicos de máximo nivel trabajados y mimados desde los campos de Extremadura.</p>
+          <p>
+            Las gallinas criadas en libertan viven dos tercios de su vida en pleno contacto con la naturaleza.
+            Su alimentación se basa en hiervas, pastos y semillas. Además del trigo y maíz que se les proporciona de base.
+          </p>
+
+          <p>
+            El proceso de puesta es totalmente natural, la gallina pone cuando quiere y no se le fuerza con ningún tipo de alimentación o producto que le motive a ello.
+          </p>
+          <p>
+            <p class="lead">¿Qué diferencia hay entre en huevo ecológico y cualquier otro huevo?</p>
+            El color y el sabor es la principal diferencia, ya que los huevos ecológicos tienen un color mas intenso además de un sabor más jugoso.
+
+          </p>
+  </div>
+  </p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+    </div>
+    <div class="col-md-6">
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/cordero.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Carnes ecológicas de pollo campero y cordero</h5>
+            <p class="card-text">Carne ecológica de corderos criados en libertad y alimentados con pastos naturales.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Muy pronto...</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/huevos2.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Huevos ecológicos</h5>
+            <p class="card-text">Huevos de gallinas silvestres alimentadas con comidas orgánicas de procedencia natural.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">3 € / 12 unidades</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/huerta.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Alimentos de la huerta</h5>
+            <p class="card-text">Frutas y verduras de temporada servidas de la huerta a tu mesa en menos de 24 horas con toda la frescura.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">20 € / cesta 5 kg</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card text-white bg-success mt-5 mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Pedidos</h5>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+
+
+      <div class="col-md-4">
+        <div class="card text-white bg-secondary">
+          <div class="card-body">
+            <h5 class="card-title">Contacto</h5>
+            <p class="card-text"><a href="https://api.whatsapp.com/send?phone=+34664241519"><img src="https://img.icons8.com/offices/30/000000/whatsapp.png"/></a>  664 241 519</p>
+            <p class="card-text"><img src="https://img.icons8.com/plasticine/30/000000/phone-not-being-used.png"/> 664 241 519</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+
+        <form method="post" action="enviar.php">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name="nombre">
+          </div>
+          <div class="form-group">
+            <label for="nombre">Dirección</label>
+            <input type="text" class="form-control" name="direccion">
+          </div>
+          <div class="form-group">
+            <label for="nombre">Teléfono de contacto</label>
+            <input type="text" class="form-control" name="telefono">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Encargo</label>
+            <select class="form-control" name="encargo">
+              <option>Media docena</option>
+              <option>Una docena</option>
+              <option>Dos docenas</option>
+              <option>Tres docenas</option>
+            </select>
+          </div>
+           <input type="submit" class="btn btn-primary float-right" value="Encargar">
+        </form>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <p>
+    <div class="row">
+        <div style="width: 100%; height: 650px; overflow-y:hidden">
+          <img src="images/comida.jpeg" alt="Productos ecológicos La Veguilla" style="width:100%" class="img-fluid">
+        </div>
+    </div>
+  </p>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
